@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 LostIRC is a simple, keyboard controlled IRC client.
 
 %description -l pl
-LostIRC jest prostym klientem IRC kotrolowanym przy pomocy klawiatury.
+LostIRC jest prostym klientem IRC sterowanym przy pomocy klawiatury.
 
 %prep
 %setup -q
@@ -53,5 +53,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_desktopdir}/*.desktop
-%{_mandir}/man1/lostirc.1.*
+%{_mandir}/man1/lostirc.1*
 %{_pixmapsdir}/*
