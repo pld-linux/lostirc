@@ -1,0 +1,9 @@
+diff -aurN lostirc-0.4.4.orig/lostirc.desktop lostirc-0.4.4/lostirc.desktop
+--- lostirc-0.4.4.orig/lostirc.desktop	2005-01-07 00:42:01.000000000 +0100
++++ lostirc-0.4.4/lostirc.desktop	2005-03-25 15:06:10.939327688 +0100
+@@ -9,4 +9,4 @@
+ Icon=lostirc.png
+ Terminal=false
+ Type=Application
+-Categories=Application;Network;
++Categories=GTK;Network;IRCClient;
