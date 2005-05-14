@@ -1,12 +1,12 @@
 Summary:	Simple IRC client
 Summary(pl):	Prosty klient IRC
 Name:		lostirc
-Version:	0.4.4
+Version:	0.4.5
 Release:	1
 License:	GPL v2
 Group:		X11/Applications/Networking
-Source0:	http://dl.sourceforge.net/lostirc/%{name}-%{version}.tar.gz
-# Source0-md5:	5f3c0ec0c4fe3ed41e6a349f9c52a0bf
+Source0:	http://heanet.dl.sourceforge.net/lostirc/%{name}-%{version}.tar.gz
+# Source0-md5:	8af2194f8c0b5a7b520db6deeaf73765
 Patch0:		%{name}-desktop.patch
 URL:		http://lostirc.sf.net/
 BuildRequires:	autoconf
@@ -33,8 +33,7 @@ LostIRC jest prostym klientem IRC sterowanym przy pomocy klawiatury.
 %{__autoheader}
 %{__autoconf}
 %{__automake}
-%configure \
-	--disable-kde
+%configure
 %{__make}
 
 %install
