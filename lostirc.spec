@@ -5,10 +5,10 @@ Version:	0.4.5
 Release:	1
 License:	GPL v2
 Group:		X11/Applications/Networking
-Source0:	http://heanet.dl.sourceforge.net/lostirc/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/lostirc/%{name}-%{version}.tar.gz
 # Source0-md5:	8af2194f8c0b5a7b520db6deeaf73765
 Patch0:		%{name}-desktop.patch
-URL:		http://lostirc.sf.net/
+URL:		http://lostirc.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-autopoint
