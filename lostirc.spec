@@ -14,6 +14,7 @@ BuildRequires:	automake
 BuildRequires:	gettext-autopoint
 BuildRequires:	gtkmm-devel >= 2.4
 BuildRequires:	libtool
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
