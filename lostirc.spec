@@ -1,5 +1,5 @@
 Summary:	Simple IRC client
-Summary(pl):	Prosty klient IRC
+Summary(pl.UTF-8):   Prosty klient IRC
 Name:		lostirc
 Version:	0.4.6
 Release:	1
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 LostIRC is a simple, keyboard controlled IRC client.
 
-%description -l pl
+%description -l pl.UTF-8
 LostIRC jest prostym klientem IRC sterowanym przy pomocy klawiatury.
 
 %prep
